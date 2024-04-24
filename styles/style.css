@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';
+}
+.header {
+    max-width: 1440px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+}
+.logo {
+    margin-left: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.logo h4{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41.45px;
+    text-align: left;
+    font-family: 'Montserrat';
+    color: #000000;
+
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    list-style: none;
+    align-items: center;
+}
+ul li p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    cursor: pointer;
+}
+ul li p:hover{
+    color: #B88E2F;
+}
+.contact {
+    margin-right: 100px;
+    display: flex;
+    gap: 45px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.contact button{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 13px 10px 13px;
+    background-color: transparent;
+    transition: all 0.7s;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.contact button:hover {
+    background-color: #F2F2F2;
+    border: 1px solid #f1f1f1;
+    border-radius: 35%;
+    transform: scale(1.1);
+}
+.contact :nth-child(1):hover{
+    transform: scale(1.1);
+}
+.contact :nth-child(2):hover{
+    transform: scale(1.1);
+}
+.contact :nth-child(3):hover{
+    transform: scale(1.1);
+}
+.contact :nth-child(4):hover{
+    transform: scale(1.1);
+}
+/* header end */
